@@ -21,6 +21,19 @@ const Billing = () => (
           </h2>
           <p className={`${styles.paragraph} mt-5 max-w-[470px]`}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime expedita nam nemo, nulla in a earum sint totam quam sapiente culpa rem ipsam ad dolorem veritatis quis aut ea.</p>
+        <div className="flex flex-row flex-wrap sm:mt-10
+        mt-6">
+          <img src={apple} alt="apple_store"
+          className="w-[128px] h-[42px]
+           object-contain mr-5 cursor-pointer"
+           />
+           <img src={google} alt="apple_store"
+          className="w-[128px] h-[42px]
+           object-contain cursor-pointer"
+           />
+           
+          
+        </div>
         </div>
     </section>
   )

@@ -31,6 +31,31 @@ const Hero = () => (
           <GetStarted />
         </div>
       </div>
+
+      <h1 className='font-poppins font-semibold
+        ss:text-[68px] text-[52px] text-white 
+        ss:leading-[100px] leading-[75px]'>
+          Popular Library
+        </h1>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quae hic quasi dolore ducimus velit temporibus ea quidem exercitationem omnis corrupti accusantium magnam expedita distinctio sequi, saepe architecto eaque voluptatibus?
+        </p>
+    </div>
+
+    <div>
+      <img src={robot} alt="billing"
+      className='w-[100%] h-[100%] relative z-[5]'
+      />
+      <div className='absolute z-0 w-[40%] h-[35%]
+      top-0 pink__gradient'/>
+      <div className='absolute z-1 w-[80%] h-[80%]
+      bottom-40 white__gradient rounded-full'/>
+      <div className='absolute z-0 w-[50%] h-[50%]
+      right-20 bottom-20 pink__gradient'/>
+    </div>
+
+    <div className={`ss:hidden ${styles.flexCenter}`}>
+      <GetStarted />
     </div>
   </section>
 )

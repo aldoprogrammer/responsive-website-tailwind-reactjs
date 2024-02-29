@@ -50,7 +50,7 @@ const Hero = () => (
       />
       <div className='absolute z-[0] w-[40%] h-[35%]
       top-0 pink__gradient'/>
-      <div className='absolute z-[1] w-[80%] h-[80%]
+      <div className='absolute z-[1] w-[10%] h-[80%]
       bottom-40 white__gradient rounded-full'/>
       <div className='absolute z-[0] w-[50%] h-[50%]
       right-20 bottom-20 pink__gradient'/>

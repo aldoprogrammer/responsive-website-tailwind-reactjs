@@ -50,7 +50,8 @@ const Footer = () => (
                 </div>
                 {/* </div> */}
 
-                <div className='w-full flex justify-between items-center'>
+                <div className='w-full flex justify-between items-center
+                md:flex-row flex-col border-t-[1px] border-t[#3F3E45] pt-5'>
                 <p className='font-poppins font-normal text-lg
                             leading-[27px] text-white'>
                                 Copyright C 2024 Aldo L.S. All Rights Reserved.

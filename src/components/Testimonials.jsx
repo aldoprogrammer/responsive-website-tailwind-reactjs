@@ -1,11 +1,12 @@
 import styles from '../style'
 import { feedback } from '../constants'
-
+import FeedbackCard from './FeedbackCard'
 const Testimonials = () => (
     <section className={`${styles.paddingY} 
     ${styles.flexCenter} flex-col relative`}
     id='clients'>
-      <div />
+      <div className='absolute z-0 w-[60%] h-[60%] 
+      -right-[50%] rounded-full blue__gradient' />
 
       <div className='w-full flex justify-between 
       items-center md:flex-row flex-col sm:mb-16 mb-6 relative
@@ -19,6 +20,13 @@ const Testimonials = () => (
             Everything you need to accept card payments and grow your business anywhere on the planet.
           </p>
         </div>
+      </div>
+
+      <div className='flex flex-wrap sm:justify-start 
+      justify-center feedback-container relative z-[1] '>
+        {feedback.map((card) => (
+            <FeedbackCard key={card.id} {...card} />
+        ))}
       </div>
 
     </section>
